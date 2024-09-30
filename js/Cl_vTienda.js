@@ -13,7 +13,7 @@ export default class CL_vTienda {
     ocultar() {
     this.vista.hidden = true;
     }
-    reportarCliente({cedula, codProducto, cantidad, montoPagar}) {
+    reportarCliente({cedula, codProducto, cantidad, montoPagar,devolverMontoTotal, productoMayorVenta}) {
         this.tabla.innerHTML += `
         <tr>
         <td>${cedula}</td>
